@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --quiet src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Braulio Henrique Marques Souto",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
