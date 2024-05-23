@@ -14,7 +14,7 @@
 
 - make a typescript config file: `npx tsc --init`
 
-- edit `tsconfig.json` and uncomment `outDir` and change to `"outDir": "./dist"`
+- edit `tsconfig.json` and uncomment `outDir` and change to `"outDir": "./dist"` and add `"include": ["./src/**/*"]` after object `"compilerOptions": {}`
 
 - add in `package.json` 2 `scripts`: `"build": "tsc",` `"dev": "ts-node-dev --respawn --quiet src/index.ts",`
 
