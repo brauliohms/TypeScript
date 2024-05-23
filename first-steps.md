@@ -22,7 +22,7 @@
 
 - install JEST and dependency jest to typescript: `npm i -D jest ts-jest`
 
-- make a file `jest.config.js` to configure Jest: `> jest.config.js`
+- make a file `jest.config.js` to configure Jest: `npx ts-jest config:init` or `> jest.config.js`
 
 `jest.config.js`
 
