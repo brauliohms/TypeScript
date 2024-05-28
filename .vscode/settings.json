@@ -1,0 +1,11 @@
+{
+  "material-icon-theme.folders.associations": {
+    "exemplo1": "custom",
+    "portas": "circleci",
+    "adapters": "connection",
+    "usuario": "admin",
+    "knex": "Aws",
+    "migrations": "job",
+    "transacao": "dist"
+  }
+}
