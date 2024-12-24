@@ -1,4 +1,4 @@
-class Carro {
+export class Carro {
   private velocidade_atual: number = 0;
   protected readonly VELOCIDADE_MAXIMA: number = 200;
 
@@ -20,9 +20,9 @@ class Carro {
   }
 }
 
-const c1 = new Carro("Fusca");
-console.log(c1.nome, c1.velocidade);
-c1.acelerar();
-
-console.log(c1.nome, c1.velocidade);
-export {};
+// const c1 = new Carro("Fusca");
+// console.log(c1.nome, c1.velocidade);
+// c1.acelerar();
+//
+// console.log(c1.nome, c1.velocidade);
+// export {};
