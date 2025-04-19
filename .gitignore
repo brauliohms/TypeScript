@@ -1,20 +1,28 @@
-# Build
-dist/**/*
+# Environment variables
+.env.*
+!.env.example
 
-# dependencies
-.node_modules/
+# Dependencies
 /node_modules
+.node_modules/
 /.pnp
 .pnp.js
 .yarn/install-state.gz
 
-# OS metadata
+# TypeScript build output
+/dist
+
+# OS generated files
 .DS_Store
 Thumbs.db
 *.pem
 
-# yarn.lock
+# Test coverage
+/coverage
+
+# .lock
 yarn.lock
+package-lock.json
 
 # debug
 npm-debug.log*
@@ -27,6 +35,3 @@ yarn-error.log*
 # Editors
 .idea
 *.iml
-
-# Coverage reports
-coverage
